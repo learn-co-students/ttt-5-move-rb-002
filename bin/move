@@ -18,7 +18,7 @@ display_board(board)
 
 input = gets.strip
 
-#move(board, input, "X")
+
 move(board, input, "X")
 board
 display_board(board)
