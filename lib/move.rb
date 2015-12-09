@@ -11,5 +11,5 @@ def move(array, position, char="X")
   array[position - 1] = char
 end
 
-move(board, 4, "O")
-show(board)
+# move(board, 4, "O")
+# show(board)
