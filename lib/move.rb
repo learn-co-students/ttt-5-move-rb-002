@@ -1,3 +1,4 @@
+# Displays the Tic Tac Toe Board in a 3x3 grid
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -7,3 +8,8 @@ def display_board(board)
 end
 
 # code your move method here!
+
+# Updates the board with the move made with the default character being "X"
+def move(board, position, character="X")
+  board[position.to_i - 1] = character
+end
