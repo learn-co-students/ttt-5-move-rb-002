@@ -7,8 +7,6 @@ def display_board(board)
 end
 
 def move(array, position, value = "X")
-  0.to_i
-  1.to_i
   array[position.to_i - 1] = value
 end
 
