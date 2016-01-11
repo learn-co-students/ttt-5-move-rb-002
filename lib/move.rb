@@ -7,3 +7,11 @@ def display_board(board)
 end
 
 # code your move method here!
+def move (board , location, players_char = "X")
+     # coverts string into an int
+  board[location.to_i - 1]= players_char
+end
+
+
+
+
