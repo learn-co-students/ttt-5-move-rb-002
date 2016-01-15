@@ -7,3 +7,11 @@ def display_board(board)
 end
 
 # code your move method here!
+def move(board, input, player = "X")
+  puts "Welcome to Tic Tac Toe!"
+  puts "Where would you like to go?"
+  input = input.to_i - 1
+  board[input] = player
+  display_board(board)
+end
+
