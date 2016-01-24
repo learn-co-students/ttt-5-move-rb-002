@@ -11,6 +11,8 @@ def display_method
 
 end
 
-def move(board, position, char = "X" )
-  board[position] = position
+def move(board, positions, char = "X" )
+   position = positions.to_i - 1
+  board[position] = board[position]
+  board[position] = char
 end
