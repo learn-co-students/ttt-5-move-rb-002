@@ -2,4 +2,9 @@
 
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+board=[]
+9.times {board << " "}
+
+puts "Welcome to Tic Tac Toe!"
+position = gets.chomp
+move(board, position, "X")
